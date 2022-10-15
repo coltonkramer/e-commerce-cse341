@@ -1,0 +1,19 @@
+{
+    "users":[
+        {
+            "f-name": "John",
+            "l-name": "Cena",
+            "email": "johncena@aol.com",
+            "password": "admin",
+            "order-history": [
+                {
+                    "sku": "",
+                    "date-ordered": "",
+                    "price": ""
+                }
+            ]
+
+        }
+
+    ]
+}

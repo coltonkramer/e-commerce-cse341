@@ -1,0 +1,3 @@
+### Get all Users
+GET http://localhost:8080/routes/users
+###

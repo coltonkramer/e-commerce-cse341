@@ -1,0 +1,40 @@
+{
+    "products":[
+        {
+            "sku": "LaSpor/EU-41/Leathe/Blue",
+            "name": "Mantra",
+            "color": "Blue",
+            "price": "169.00",
+            "img": "https://www.rei.com/media/3c9f4ea3-7a4f-474d-98c7-4872e6f6e89e.jpg",
+            "manufacturer": "La Sportiva",
+            "size": "EU-41"
+        },
+        {
+            "sku": "Butora/EU-38/Rubber/Pink",
+            "name": "Gomi",
+            "color": "Pink",
+            "price": "159.95",
+            "img": "https://www.rei.com/media/13b8d7e0-1926-4779-8ec0-47426e6b05e6.jpg",
+            "manufacturer": "Butora",
+            "size": "EU-38"
+        },
+        {
+            "sku": "EvolvS/EU-44/Leathe/Gray",
+            "name": "Shaman Lace",
+            "color": "Gray",
+            "price": "195.00",
+            "img": "https://www.rei.com/media/4d383d2e-0d3d-4812-aaec-6906cc789aee.jpg",
+            "manufacturer": "Evolv",
+            "size": "EU-44"
+        },
+        {
+            "sku": "EvolvR/EU-45/Leathe/Orange",
+            "name": "Rave",
+            "color": "Orange",
+            "price": "125.00",
+            "img": "https://www.rei.com/media/00019304-017d-4e19-8dba-7430836015c8.jpg",
+            "manufacturer": "Evolv",
+            "size": "EU-45"
+        }
+    ]
+}
