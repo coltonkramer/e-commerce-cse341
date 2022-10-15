@@ -1,7 +1,7 @@
 ### Get all Products
 GET http://localhost:8080/routes
 ### Product by ID
-GET localhost
+GET http://localhost:8080/routes/634acc9f6c498c5b438a4023
 ### Create Product
 POST http://localhost:8080/routes HTTP/1.1
 content-type: application/json 
@@ -17,3 +17,23 @@ content-type: application/json
 }   
 ### Delete Contact
 DELETE http://localhost:8080/routes/634ade53b24df70736f4a504 HTTP/1.1
+
+### Get all Products
+GET http://e-commerce-cse341.onrender.com/routes
+### Product by ID
+GET http://e-commerce-cse341.onrender.com/routes/634acc9f6c498c5b438a4023
+### Create Product
+POST http://e-commerce-cse341.onrender.com/routes HTTP/1.1
+content-type: application/json 
+
+{
+    "sku": "Soluti/EU-38/Leathe/Yellow",
+    "name": "Solution",
+    "color": "Yellow",
+    "price": "189.00",
+    "img": "https://www.rei.com/media/22f14b28-b261-4c57-b276-cff078579217.jpg",
+    "manufacturer": "La Sportiva",
+    "size": "EU-38"
+}   
+### Delete Contact
+DELETE http://e-commerce-cse341.onrender.com/routes/634ae41e933ba9984b81d6cc HTTP/1.1

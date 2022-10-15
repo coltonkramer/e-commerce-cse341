@@ -1,3 +1,6 @@
 ### Get all Users
 GET http://localhost:8080/routes/users
 ###
+### Get all Users
+GET http://e-commerce-cse341.onrender.com/routes/users
+###

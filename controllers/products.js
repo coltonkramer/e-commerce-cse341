@@ -12,6 +12,18 @@ const getDataProducts = async (req, res, next) => {
     res.status(200).json(lists);
   });
 };
+const getDataProductsById = async (req, res, next) => {
+  const productId = new ObjectId(req.params.id);
+  const result = await mongodb
+    .getDb()
+    .db("climbing-shoes-commerce")
+    .collection("products")
+    .find({ _id: productId });
+  result.toArray().then((lists) => {
+    res.setHeader("Content-Type", "application/json");
+    res.status(200).json(lists);
+  });
+};
 
 const createProductEntry = async (req, res) => {
   const newProduct = {
@@ -46,6 +58,7 @@ const deleteProductEntry = async(req, res) => {
 
 module.exports = { 
     getDataProducts,
+    getDataProductsById,
     createProductEntry,
     deleteProductEntry
 };

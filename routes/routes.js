@@ -8,6 +8,8 @@ const router = express.Router();
 // Products routes
 router.get('/', productsControl.getDataProducts);
 
+router.get('/:id', productsControl.getDataProductsById);
+
 router.post('/', productsControl.createProductEntry);
 
 router.delete('/:id', productsControl.deleteProductEntry);
