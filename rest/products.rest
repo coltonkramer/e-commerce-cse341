@@ -1,7 +1,5 @@
 ### Get all Products
 GET http://localhost:8080/routes
-### Product by ID
-GET http://localhost:8080/routes/634acc9f6c498c5b438a4023
 ### Create Product
 POST http://localhost:8080/routes HTTP/1.1
 content-type: application/json 
@@ -20,8 +18,6 @@ DELETE http://localhost:8080/routes/634ade53b24df70736f4a504 HTTP/1.1
 
 ### Get all Products
 GET http://e-commerce-cse341.onrender.com/routes
-### Product by ID
-GET http://e-commerce-cse341.onrender.com/routes/634acc9f6c498c5b438a4023
 ### Create Product
 POST http://e-commerce-cse341.onrender.com/routes HTTP/1.1
 content-type: application/json 
