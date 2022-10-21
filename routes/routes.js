@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const productsControl= require('../controllers/products');
 const userControl= require('../controllers/users');
-const { validateProductResponse } = require('../validator/validator')
+const { validateProductResponse, validateDeleteRequest } = require('../validator/validator')
 
 const router = express.Router();
 router.use(express.json());
@@ -23,7 +23,7 @@ router.post('/', validateProductResponse, productsControl.createProductEntry);
 
 router.put('/:id', validateProductResponse, productsControl.updateProductEntry);
 
-router.delete('/:id', productsControl.deleteProductEntry);
+router.delete('/:id', validateDeleteRequest, productsControl.deleteProductEntry);
 
 // Users routes
 router.get('/users', userControl.getDataUsers);

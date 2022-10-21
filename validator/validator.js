@@ -9,3 +9,7 @@ exports.validateProductResponse = [
     check('manufacturer', "Manufacturer is a required field").not().isEmpty(),
     check('size', "Size is a required field").not().isEmpty()
 ]
+
+exports.validateDeleteRequest = [
+    check('id', "SKU is a required field").not().isEmpty(),
+]
