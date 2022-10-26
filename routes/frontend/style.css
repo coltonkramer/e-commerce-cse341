@@ -14,7 +14,6 @@ body{
 }
 .product-div img{
     width: 100%;
-
 }
 .product-div:hover{
     transform: scale(1.1);
